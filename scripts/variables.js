@@ -1,5 +1,27 @@
 
-var nome = "Alex";
-vas nome = "João";
+// // var aceita redeclaração e reatribuição (sofre içamento)
+// var nome = "Alex";
+// var nome = "Arthur";
+// console.log(nome);
 
-console.log(nome); // Output: João
+// // let não aceita redeclaração, mas aceita reatribuição (não sofre içamento)
+// let idade = 29;
+// idade = 27;
+// console.log(idade);
+
+// // const não aceita redeclaração nem reatribuição (não sofre içamento)
+// const profissao = "desenvolvedor";
+// console.log(profissao);
+
+{   
+    var nome = "Alexandre"; // redeclaração com var
+}
+
+console.log(nome); // "undefined" devido ao içamento
+
+
+{   
+    let idade = 29; // let não sofre içamento
+}
+
+console.log(idade); // ReferenceError: idade is not defined
