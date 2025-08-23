@@ -13,15 +13,15 @@
 // const profissao = "desenvolvedor";
 // console.log(profissao);
 
-{   
-    var nome = "Alexandre"; // redeclaração com var
-}
+// {   
+//     var nome = "Alexandre"; // redeclaração com var
+// }
 
-console.log(nome); // "undefined" devido ao içamento
+// console.log(nome); // "undefined" devido ao içamento
 
 
-{   
-    let idade = 29; // let não sofre içamento
-}
+// {   
+//     let idade = 29; // let não sofre içamento
+// }
 
-console.log(idade); // ReferenceError: idade is not defined
+// console.log(idade); // ReferenceError: idade is not defined
